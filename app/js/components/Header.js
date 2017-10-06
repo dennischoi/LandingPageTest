@@ -11,8 +11,9 @@ class Header extends React.Component {
   render() {
     return (
       <header>
-
-        Header
+        <div className="header__logo">
+          <img src="./images/logo-nav@2x.png" />
+        </div>
 
       </header>
     );

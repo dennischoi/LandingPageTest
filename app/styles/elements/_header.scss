@@ -1,4 +1,14 @@
 header {
   height: 50px;
-  background: #eeeeee;
+  display: flex;
+  flex-flow: row;
+}
+
+.header {
+	&__logo {
+		flex: 1;
+		img {
+			height: -webkit-fill-available;
+		}
+	}
 }

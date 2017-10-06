@@ -28,15 +28,3 @@ p {
     font-weight: bold;
   }
 }
-
-h1 {
-  @extend .heading.-large;
-}
-
-h2 {
-  @extend .heading.-medium;
-}
-
-h3 {
-  @extend .heading.-small;
-}

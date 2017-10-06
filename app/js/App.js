@@ -5,6 +5,7 @@ import React              from 'react';
 import CurrentUserActions from './actions/CurrentUserActions';
 import CurrentUserStore   from './stores/CurrentUserStore';
 import Header             from './components/Header';
+import Landing             from './components/Landing';
 import Footer             from './components/Footer';
 
 const propTypes = {
@@ -60,11 +61,10 @@ class App extends React.Component {
   render() {
     return (
       <div>
-
         <Header />
+        <Landing />
 
         {this.renderChildren()}
-
         <Footer />
 
       </div>
