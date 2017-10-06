@@ -13,11 +13,35 @@ class Landing extends React.Component {
   render() {
     return (
       <section className="landing__main">
-        test
-        <div className="landing__section4">
-          <div className="landing__bgLeft">
+
+      {/* COLLAGE DETAILS */}
+        <div className="landing__section1">
+          <div className="content__presentation">
+            <div className="screen">
+            </div>
           </div>
-          <div className="landing__bgMiddle">
+
+          <div className="content__options">
+            <div>
+            </div>
+
+            <ul className="featureList">
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              <li></li>
+              
+            </ul>
+          </div>
+        </div>
+
+
+      {/* TESTIMONIALS */}
+        <div className="landing__section4">
+          <div className="testimonial__bgLeft">
+          </div>
+          <div className="testimonial__bgMiddle">
             <div className="testimonial">
               <span className="testimonial__text">
                 "When it comes to benefits, we need a solution that's as modern,
@@ -33,10 +57,10 @@ class Landing extends React.Component {
               </div>
             </div>
           </div>
-          <div className="landing__bgRight">
-          </div>
-          
+          <div className="testimonial__bgRight">
+          </div>  
         </div>
+      {/* TESTIMONIALS END*/}
 
       </section>
     );

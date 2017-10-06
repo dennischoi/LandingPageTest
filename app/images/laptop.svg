@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="612px" height="792px" viewBox="0 0 612 792" enable-background="new 0 0 612 792" xml:space="preserve">
+<filter  height="400%" width="120%" id="dropShadow" y="-40%" x="-10%">
+	<feGaussianBlur  stdDeviation="4" in="SourceGraphic"></feGaussianBlur>
+	<feOffset  dy="3.4" dx="0"></feOffset>
+	<feMerge>
+		<feMergeNode></feMergeNode>
+		<feMergeNode  in="SourceGraphic"></feMergeNode>
+	</feMerge>
+</filter>
+<title>laptop</title>
+<g id="Set">
+	<path fill="#BCC0C4" d="M92.837,230.145h425.1c12.598,0,22.81,10.212,22.81,22.81v271.17c0,12.598-10.212,22.81-22.81,22.81H92.838
+		c-12.598,0-22.81-10.212-22.81-22.81l0,0v-271.17C70.029,240.356,80.241,230.145,92.837,230.145L92.837,230.145z"/>
+	<path d="M92.838,232.946h425.1c11.05,0,20.007,8.958,20.007,20.008v271.17c0,11.051-8.957,20.008-20.007,20.008h-425.1
+		c-11.051,0-20.009-8.958-20.009-20.008V252.955C72.83,241.904,81.788,232.946,92.838,232.946L92.838,232.946z"/>
+	<rect x="94.563" y="254.149" width="421.648" height="257.249"/>
+	
+		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="26.9536" y1="303.0942" x2="961.4434" y2="303.0942" gradientTransform="matrix(0.6176 0 0 -0.6176 0.1912 719.5397)">
+		<stop  offset="0" style="stop-color:#A6A6A6"/>
+		<stop  offset="0.0023" style="stop-color:#BCBCBC"/>
+		<stop  offset="0.0055" style="stop-color:#D4D4D4"/>
+		<stop  offset="0.0089" style="stop-color:#E5E5E5"/>
+		<stop  offset="0.0127" style="stop-color:#EFEFEF"/>
+		<stop  offset="0.0173" style="stop-color:#F2F2F2"/>
+		<stop  offset="0.042" style="stop-color:#E3E3E3"/>
+		<stop  offset="0.1316" style="stop-color:#E6E7E8"/>
+		<stop  offset="0.2115" style="stop-color:#ECEEF2"/>
+		<stop  offset="0.7885" style="stop-color:#F8FBFF"/>
+		<stop  offset="0.958" style="stop-color:#E3E3E3"/>
+		<stop  offset="0.9827" style="stop-color:#F2F2F2"/>
+		<stop  offset="0.9873" style="stop-color:#EFEFEF"/>
+		<stop  offset="0.9911" style="stop-color:#E5E5E5"/>
+		<stop  offset="0.9945" style="stop-color:#D4D4D4"/>
+		<stop  offset="0.9977" style="stop-color:#BCBCBC"/>
+		<stop  offset="1" style="stop-color:#A6A6A6"/>
+	</linearGradient>
+	<rect x="16.836" y="526.423" fill="url(#SVGID_1_)" width="577.102" height="11.878"/>
+	<g filter="url(#dropShadow)">
+		
+			<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="494.1992" y1="271.9019" x2="494.1992" y2="257.9224" gradientTransform="matrix(0.6176 0 0 -0.6176 0.1912 706.2155)">
+			<stop  offset="0" style="stop-color:#D4D4D4"/>
+			<stop  offset="0.1932" style="stop-color:#D0D0D0"/>
+			<stop  offset="0.376" style="stop-color:#C5C5C5"/>
+			<stop  offset="0.5546" style="stop-color:#B2B2B2"/>
+			<stop  offset="0.7307" style="stop-color:#979797"/>
+			<stop  offset="0.9033" style="stop-color:#757575"/>
+			<stop  offset="1" style="stop-color:#5E5E5E"/>
+		</linearGradient>
+		<path fill="url(#SVGID_2_)" d="M16.836,538.301L16.836,538.301c9.423,7.744,28.603,8.633,44.406,8.633h488.29
+			c15.805,0,34.984-0.889,44.407-8.633H16.836z"/>
+	</g>
+	
+		<radialGradient id="SVGID_3_" cx="495.1934" cy="489.4482" r="102.1093" gradientTransform="matrix(0.6176 0 0 -0.3088 0.1912 668.2591)" gradientUnits="userSpaceOnUse">
+		<stop  offset="0" style="stop-color:#E0E0E0"/>
+		<stop  offset="0.486" style="stop-color:#DEDEDE"/>
+		<stop  offset="0.661" style="stop-color:#D7D7D7"/>
+		<stop  offset="0.7858" style="stop-color:#CCCCCC"/>
+		<stop  offset="0.8866" style="stop-color:#BBBBBB"/>
+		<stop  offset="0.972" style="stop-color:#A5A5A5"/>
+		<stop  offset="1" style="stop-color:#9C9C9C"/>
+	</radialGradient>
+	<path fill="url(#SVGID_3_)" d="M254.944,526.423h100.888c0,3.64-5.9,6.59-13.179,6.59h-74.53
+		C260.844,533.013,254.944,530.062,254.944,526.423z"/>
+	<circle fill="#1C1C1C" cx="305.388" cy="244.655" r="2.097"/>
+</g>
+</svg>
