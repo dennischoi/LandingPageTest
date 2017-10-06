@@ -1,11 +1,11 @@
 {
   "name": "react-rocket-boilerplate",
   "version": "2.5.0",
-  "author": "Jake Marsh <jakemmarsh@gmail.com>",
+  "author": "",
   "description": "Boilerplate using React, Browserify, SASS, and Gulp.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jakemmarsh/react-rocket-boilerplate.git"
+    "url": ""
   },
   "keywords": [
     "gulp",
