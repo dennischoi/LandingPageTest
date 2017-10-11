@@ -45,6 +45,14 @@
 
 
 // MEDIA Query
+@media(max-width: 1000px) {
+	.landing {
+		&__section1 {
+			flex-flow: column;
+			overflow: hidden;
+		}
+	}
+}
 @media(max-width: 700px) {
 	.landing {
 		&__bg {

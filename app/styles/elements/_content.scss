@@ -115,3 +115,18 @@
 	}
 }
 
+
+// MEDIA Query
+@media(max-width: 1000px) {
+	.content {
+		&__options, &__presentation {
+			width: 100%;
+		}
+	}
+
+	.screen {
+		margin: 0;
+		float: none;
+		width: 100%;
+	}
+}
