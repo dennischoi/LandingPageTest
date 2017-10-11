@@ -12,7 +12,9 @@ class Header extends React.Component {
     return (
       <header>
         <div className="header__logo">
-          <img src="./images/logo-nav@2x.png" />
+          <a href="https://www.collage.co/" target="_blank">
+            <img src="./images/logo-nav@2x.png" />
+          </a>
         </div>
 
       </header>

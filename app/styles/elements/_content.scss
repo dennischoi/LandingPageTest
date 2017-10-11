@@ -5,11 +5,11 @@
 	}
 
 	&__options {
-
+		z-index: 2;
 	}
 
 	&__header {
-		padding-top: 7rem;
+		padding-top: 6rem;
 		h1 {
 
 		    font-weight: 100;
@@ -32,7 +32,7 @@
     height: 33.1rem;
     display: block;
     position: relative;
-    margin-top: 7rem;
+    margin-top: 6rem;
     margin-left: -6.4rem;
     float: left;
 
@@ -83,12 +83,12 @@
 			display: block;
 			text-decoration: none;
 
-			h3 {
+			h4 {
 			    display: block;
 			    width: 100%;
 			    font-family: RobotoBasic,Roboto,Helvetica,Arial,sans-serif;
 			    font-weight: 300;
-			    font-size: 1.7rem;
+			    font-size: 1.5rem;
 			    color: #2b6cec;
 			    line-height: 1;
 			    margin: 0 0 1.2rem;
@@ -107,7 +107,7 @@
 
 			// While hovering on feature
 			&:hover {
-				h3 {
+				h4 {
 					color: #ffad59;
 				}
 			}

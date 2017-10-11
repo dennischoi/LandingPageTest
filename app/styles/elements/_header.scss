@@ -1,7 +1,10 @@
 header {
-  height: 50px;
+  height: 60px;
   display: flex;
   flex-flow: row;
+  padding: 1rem 2rem;
+  position: absolute;
+  z-index: 2;
 }
 
 .header {

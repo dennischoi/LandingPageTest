@@ -2,13 +2,32 @@
 	
 	&__main {
 		margin: 0 auto;
-		max-width: 1366px!important;
+		
 
 		
 	}
 	&__section1 {
 		display: flex;
 		min-height: 600px;
+		padding-bottom: 1rem;
+		background-image: url("/images/bg_canvas@2.jpg");
+
+	    /* Create the parallax scrolling effect */
+	    background-attachment: fixed;
+	    background-position: center;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+
+	}
+
+	&__section2 {
+		background: #F9FAFA;
+		display: flex;
+		padding: 2em 5rem;
+		margin:1rem 0 7rem;
+
+		text-align: center;
+
 	}
 
 	&__section4 {
