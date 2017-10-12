@@ -2,9 +2,9 @@
 
 import React from 'react';
 
-import Header from './Header';
+
 import Testimonial from './Testimonial';
-import Clients from './Clients';
+
 
 class Landing extends React.Component {
 
@@ -48,7 +48,7 @@ class Landing extends React.Component {
 
   render() {
     return (
-      <section className="landing__main">
+      <section>
 
       {/* COLLAGE DETAILS */}
         <div className="landing__section1">
@@ -61,41 +61,56 @@ class Landing extends React.Component {
               </div>
 
               <ul className="featureList">
-                <li className="featureList__employee">
-                  <a data-img="laptop_employee" className="active" onMouseEnter={this.handleHover} onMouseLeave={this.handleHover} href="">
-                    <h4>Employee</h4>
-                    <p>
-                      Collect, store and manage all and any data you need that may affect employees.
-                    </p>
-                  </a>
-                </li>
                 <li className="featureList__report">
-                  <a data-img="laptop_report" href="">
-                    <h4>Reports</h4>
+                  <a data-img="laptop_report" className="active" onMouseEnter={this.handleHover} onMouseLeave={this.handleHover} href="https://www.collage.co/hr-reporting/" target="_blank">
+                    <div className="content__title">
+                      <img src="./images/icon-reporting@2x.png" height="24"/>
+                      <h4>Reports</h4>
+                    </div>
                     <p>
                       Export, filter, and chart all available data with ease.
                     </p>
                   </a>
                 </li>
+                <li className="featureList__employee">
+                  <a data-img="laptop_employee" onMouseEnter={this.handleHover} onMouseLeave={this.handleHover} href="https://www.collage.co/employee-management/" target="_blank">
+                    <div className="content__title">
+                      <img src="./images/icon-employees@2x.png" height="24"/>
+                      <h4>Employee</h4>
+                    </div>
+                    <p>
+                      Collect, store and manage all and any data you need that may affect employees.
+                    </p>
+                  </a>
+                </li>
                 <li className="featureList__recruit">
-                  <a data-img="laptop_recruit" href="">
-                    <h4>Recruiting</h4>
+                  <a data-img="laptop_recruit" onMouseEnter={this.handleHover} onMouseLeave={this.handleHover} href="https://www.collage.co/applicant-tracking/" target="_blank">
+                    <div className="content__title">
+                      <img src="./images/icon-onboarding@2x.png" height="24"/>
+                      <h4>Recruiting</h4>
+                    </div>
                     <p>
                       Engage in a more seamless approach to recruitment that onboards internally.
                     </p>
                   </a>
                 </li>
                 <li className="featureList__performance">
-                  <a data-img="laptop_performance" href="">
-                    <h4>Performance</h4>
+                  <a data-img="laptop_performance" onMouseEnter={this.handleHover} onMouseLeave={this.handleHover} href="https://www.collage.co/performance-management/" target="_blank">
+                    <div className="content__title">  
+                      <img src="./images/icon-engagement@2x.png" height="24"/>
+                      <h4>Performance</h4>
+                    </div>
                     <p>
                       Track, co-ordinate, and promote better performance with a streamlined review process.
                     </p>
                   </a>
                 </li>
                 <li className="featureList__benefits">
-                  <a data-img="laptop_benefits" href="">
-                    <h4>Benefits</h4>
+                  <a data-img="laptop_benefits" onMouseEnter={this.handleHover} onMouseLeave={this.handleHover} href="https://www.collage.co/group-benefits/" target="_blank">
+                    <div className="content__title">
+                      <img src="./images/icon-benefits@2x.png" height="24"/>
+                      <h4>Benefits</h4>
+                    </div>
                     <p>
                       Reduce your costs and onboard new hires with no hassle.
                     {/* Find the best package that suits your business */}
@@ -134,13 +149,6 @@ class Landing extends React.Component {
           </div>
           
         </div>
-
-        
-
-
-        <Clients />
-        
-        <Testimonial />
 
       </section>
     );

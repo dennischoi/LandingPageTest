@@ -6,6 +6,14 @@ body {
 }
 
 
+h2, span, div {
+	font-family: RobotoBasic,Roboto,Helvetica,Arial,sans-serif;
+}
+
+a {
+	cursor: pointer;
+}
+
 // For testing purposes
 div {
 	border: 1px dotted red;

@@ -12,7 +12,7 @@ class Testimonial extends React.Component {
   render() {
     return (
 
-        <div className="landing__section4">
+        <div className="landing__section7">
           <div className="testimonial__bgLeft">
           </div>
           <div className="testimonial__bgMiddle">

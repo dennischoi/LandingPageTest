@@ -4,9 +4,13 @@ import React              from 'react';
 
 import CurrentUserActions from './actions/CurrentUserActions';
 import CurrentUserStore   from './stores/CurrentUserStore';
-import Header             from './components/Header';
-import Landing             from './components/Landing';
-import Footer             from './components/Footer';
+import Header from './components/Header';
+import Landing from './components/Landing';
+import Clients from './components/Clients';
+import Employees from './components/Employees';
+
+import Testimonial from './components/Testimonial';
+import Footer from './components/Footer';
 
 const propTypes = {
   params: React.PropTypes.object,
@@ -60,14 +64,20 @@ class App extends React.Component {
 
   render() {
     return (
-      <div>
+      <section className="landing__main">
         <Header />
         <Landing />
+
+        <Clients />
+
+        <Employees />
+
+        <Testimonial />
 
         {/* {this.renderChildren()} */}
         <Footer />
 
-      </div>
+      </section>
     );
   }
 

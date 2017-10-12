@@ -2,6 +2,7 @@
 	
 	&__main {
 		margin: 0 auto;
+		overflow: hidden;
 		
 
 		
@@ -24,13 +25,19 @@
 		background: #F9FAFA;
 		display: flex;
 		padding: 2em 5rem;
-		margin:1rem 0 7rem;
+		margin:0 0 7rem;
 
 		text-align: center;
 
 	}
 
-	&__section4 {
+	&__section3, &__section4 {
+		display: flex;
+		margin: 0 0 7rem;
+
+	}
+
+	&__section7 {
 		display: flex;
 		min-height: 300px;
 	}

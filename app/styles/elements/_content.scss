@@ -21,6 +21,10 @@
 		}
 	}
 
+	&__title {
+		display: flex;
+	}
+
 
 }
 
@@ -85,13 +89,13 @@
 
 			h4 {
 			    display: block;
-			    width: 100%;
 			    font-family: RobotoBasic,Roboto,Helvetica,Arial,sans-serif;
 			    font-weight: 300;
 			    font-size: 1.5rem;
-			    color: #2b6cec;
+			    color: $brand;
 			    line-height: 1;
 			    margin: 0 0 1.2rem;
+			    padding-left: 8px;
 			}
 			// Each feature detail
 			p {
@@ -104,11 +108,18 @@
 
 			}
 
+			img {
+				background-color: $brand;
+			}
+
 
 			// While hovering on feature
 			&:hover {
 				h4 {
 					color: #ffad59;
+				}
+				img {
+					background-color: #ffad59 !important;
 				}
 			}
 		}
