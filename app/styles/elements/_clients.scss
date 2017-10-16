@@ -3,11 +3,13 @@
 
 
 	&__blurb {
+		border-bottom: 1px solid #d4d4d4;
 		padding: 1rem;
 		span {
 			color: #3F76F2;
 			opacity: 0.9;
 			font-size: 1rem;
+
 		}
 	}
 
@@ -16,11 +18,37 @@
 		display: flex;
 		list-style: none;
 		padding: 0;
+		flex-wrap: wrap;
 		li {
 			flex: 1;
-			img {
-				height: 4.5vw;
-			}
+		}
+	}
+
+	&__brand {
+		height: 4.5vw;
+	}
+}
+
+
+
+// MEDIA Q
+
+// 800px
+@media only screen and (max-width: 800px) {
+	.clients {
+		&__brand {
+			height: 6.5vw;
+		}
+	}
+}
+
+
+// 550px
+@media only screen and (max-width: 550px) {
+
+	.clients {
+		&__brand {
+			height: 10.5vw;
 		}
 	}
 }

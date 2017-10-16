@@ -20,19 +20,19 @@ class Clients extends React.Component {
 
           	<ul>
           		<li>
-          			<img src="https://www.collage.co/wp-content/themes/collage/library/img/lp/logo-wealthsimple@2x.png" />
+          			<img className="clients__brand" src="https://www.collage.co/wp-content/themes/collage/library/img/lp/logo-wealthsimple@2x.png" />
           		</li>
           		<li>
-          			<img src="https://www.collage.co/wp-content/themes/collage/library/img/lp/logo-pur@2x.png" />
+          			<img className="clients__brand" src="https://www.collage.co/wp-content/themes/collage/library/img/lp/logo-pur@2x.png" />
           		</li>
           		<li>
-          			<img src="https://www.collage.co/wp-content/themes/collage/library/img/lp/logo-talentminded@2x.png" />
+          			<img className="clients__brand" src="https://www.collage.co/wp-content/themes/collage/library/img/lp/logo-talentminded@2x.png" />
           		</li>
           		<li>
-          			<img src="https://www.collage.co/wp-content/themes/collage/library/img/lp/logo-narcity-media@2x.png" />
+          			<img className="clients__brand" src="https://www.collage.co/wp-content/themes/collage/library/img/lp/logo-narcity-media@2x.png" />
           		</li>
           		<li>
-          			<img src="https://www.collage.co/wp-content/themes/collage/library/img/lp/logo-sweet-tooth@2x.png" />
+          			<img className="clients__brand" src="https://www.collage.co/wp-content/themes/collage/library/img/lp/logo-sweet-tooth@2x.png" />
           		</li>
           	</ul>
           </div>

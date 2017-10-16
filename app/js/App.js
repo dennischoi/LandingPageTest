@@ -7,7 +7,7 @@ import CurrentUserStore   from './stores/CurrentUserStore';
 import Header from './components/Header';
 import Landing from './components/Landing';
 import Clients from './components/Clients';
-import Employees from './components/Employees';
+import Extra from './components/Extra';
 
 import Testimonial from './components/Testimonial';
 import Footer from './components/Footer';
@@ -70,7 +70,7 @@ class App extends React.Component {
 
         <Clients />
 
-        <Employees />
+        <Extra />
 
         <Testimonial />
 

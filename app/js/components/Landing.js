@@ -126,23 +126,23 @@ class Landing extends React.Component {
             <div className="screen">
               {/* Slides for each Feature */}
               <div id="laptop_employee" className="screen__slide">
-                <img src="https://www.collage.co/wp-content/themes/collage/library/img//home/features/feature-employees@2x.png" />
+                <img src="https://www.collage.co/wp-content/themes/collage/library/img//home/features/feature-employees@2x.png" alt="Collage - HR Report" />
               </div>
 
               <div id="laptop_report" className="screen__slide active">
-                <img src="https://www.collage.co/wp-content/themes/collage/library/img//home/features/feature-reporting@2x.png" />
+                <img src="https://www.collage.co/wp-content/themes/collage/library/img//home/features/feature-reporting@2x.png" alt="Collage - HR Employee" />
               </div>
 
               <div id="laptop_benefits" className="screen__slide">
-                <img src="https://www.collage.co/wp-content/themes/collage/library/img//home/features/feature-benefits@2x.png" />
+                <img src="https://www.collage.co/wp-content/themes/collage/library/img//home/features/feature-benefits@2x.png" alt="Collage - HR Onboarding" />
               </div>
 
               <div id="laptop_recruit" className="screen__slide">
-                <img src="https://www.collage.co/wp-content/themes/collage/library/img//home/features/feature-recruiting@2x.png" />
+                <img src="https://www.collage.co/wp-content/themes/collage/library/img//home/features/feature-recruiting@2x.png" alt="Collage - HR Performance Management" />
               </div>
 
               <div id="laptop_performance" className="screen__slide">
-                <img src="https://www.collage.co/wp-content/themes/collage/library/img//home/features/feature-performance@2x.png" />
+                <img src="https://www.collage.co/wp-content/themes/collage/library/img//home/features/feature-performance@2x.png" alt="Collage - HR Benefits" />
               </div>
 
             </div>

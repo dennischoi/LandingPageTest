@@ -5,7 +5,7 @@
 	height: 100%;
 	color: white;
 	justify-content: center;
-	padding: 0 7em;
+	padding: 0 12vw;
 
 	&__bg {
 		&Left {
@@ -36,6 +36,8 @@
 			flex: 2;
 			position: relative;
 			overflow: hidden;
+
+			padding: 2rem 0;
 
 			&:before {
 				content: ' ';
@@ -112,4 +114,28 @@
 	}
 
 
+}
+
+@media only screen and (max-width: 850px) {
+	.testimonial {
+
+		&__bg {
+			&Middle {
+				flex: 5;
+			}
+		}
+		
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	.testimonial {
+
+		&__bg {
+			&Left, &Right {
+				display: none;
+			}
+		}
+		
+	}
 }

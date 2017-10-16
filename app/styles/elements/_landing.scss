@@ -22,10 +22,10 @@
 	}
 
 	&__section2 {
-		background: #F9FAFA;
+		background: #e8e8e8;
 		display: flex;
-		padding: 2em 5rem;
-		margin:0 0 7rem;
+		padding: 2em 4rem;
+		margin:0 0 5rem;
 
 		text-align: center;
 
@@ -34,6 +34,8 @@
 	&__section3, &__section4 {
 		display: flex;
 		margin: 0 0 7rem;
+
+		flex-flow: column;
 
 	}
 

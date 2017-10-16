@@ -1,4 +1,31 @@
-.employees {
+.extra {
+
+	&__section1 {
+		align-items: center;
+		display: flex;
+		flex-flow: column;
+		padding: 0 12vw;
+
+		h2 {
+			font-size: 1.8rem;
+			font-weight: 600;
+			text-align: center;
+
+		}
+		p {
+			color: #717B8A;
+			font-size: 1.2rem;
+			font-weight: 400;
+			padding: 0;
+			margin-bottom: 3rem;
+		}
+
+	}
+
+	&__section2 {
+		display: flex;
+	}
+
 
 	&__presentation {
 		flex: 3;
@@ -59,10 +86,33 @@
 
 						margin: 0;
 						font-size: 14px;
+						text-align: center;
 					}
 				}
 			}
 
 		}
 	}
+}
+
+@media only screen and (max-width: 800px) {
+	.extra {
+		&__section2 {
+			flex-flow: column;
+		}
+
+		&__info {
+
+			.e {
+				&__title {
+					text-align: center;
+				}
+
+				&__details {
+					padding: 0 12vw;
+				}
+			}
+		}
+	}
+	
 }
